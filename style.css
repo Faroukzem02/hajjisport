@@ -1,0 +1,63 @@
+/*----- global -----*/
+@font-face {
+    font-family: p_r;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: p_b;
+    src: url(fonts/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: p_l;
+    src: url(fonts/Oswald-Light.ttf);
+}
+
+:root {
+    --white: #f6fafb;
+    --light1: #d0dfff;
+    --light2: #95c8e1;
+    --cyan: #168ecf;
+    --dark1: #0c1e28;
+    --dark2: #040e13;
+    --black: #000304;
+    --regular: p_r;
+    --light: p_l;
+    --bold: p_b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--dark2);
+}
+
+*::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: var(--light1);
+}
+
+body {
+    background-color: #302b63;
+}
+
+.swal-title {
+    font-family: var(--bold);
+    color: var(--dark2);
+    font-size: 20px;
+    color: var(--dark1);
+}
+
+
+@media screen and (max-width:799px) {}
+
+
+@media screen and (min-width:800px) and (max-width:1100px) {}
+
